@@ -1,4 +1,4 @@
-bb# pdf_to_speech
+# pdf_to_speech
 
 Reads a pdf file then narrates it with a sweet robotic voice.
 
@@ -6,5 +6,5 @@ Reads a pdf file then narrates it with a sweet robotic voice.
 
 # Libraries Used ->
 
-**PyPDF2 -> To read the PDF file** </br>
-**pyttsx3 -> To narrate the readed pdf file.** </br>
+- **PyPDF2 -> To read the PDF file** </br>
+- **pyttsx3 -> To narrate the readed pdf file.** </br>
