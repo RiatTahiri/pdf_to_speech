@@ -25,7 +25,7 @@ voices = initalizer_py.getProperty('voices')
 
 for voice in voices:
     initalizer_py.setProperty('voice', voice.id)
-    initalizer_py.say('harry potter said')
+    initalizer_py.say('sample pdf.')
 
 
 # textObj = gTTS(text=pageObj.extractText(), lang=lang, slow=False)
