@@ -10,7 +10,7 @@ lang = 'en'
 
 initalizer_py = pyttsx3.init()
 
-pdfFile = open('harry_potter.{type}'.format(type=fileType), 'rb')
+pdfFile = open('sample.{type}'.format(type=fileType), 'rb')
 pdfRead = PyPDF2.PdfFileReader(pdfFile)
 
 print(pdfRead.numPages)
